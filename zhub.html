@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <title>
+         
+        Z-Hub
+    </title>
+    <link rel="icon" type="image/png" href="logotipozhub.png">
+</head>
+<style>
+    /*Responsividade com media queries*/
+
+@media (max-width: 899px) {
+  .logo {
+    font-size: 25px;
+  }
+  .hero-content h1 {
+    font-size: 36px;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+section h2{
+    font-size: 24px;
+}
+section p{
+    font-size: 16px;
+}
+section {
+    padding: 13px;
+    margin-bottom: 40px;
+}
+.hero-content img{
+    width: 100%;
+    padding: 30px;
+    margin-top: -75px;
+    cursor: pointer;
+}
+}
+
+
+@media (min-width: 900px) {
+  .logo{
+    font-size: 27pt;
+    margin-left: 13px;
+  }
+  nav ul li a{
+    font-size: 18pt;
+    margin: 30px;
+  }
+  .hero-content h1 {
+    font-size: 40px;
+}
+
+  .hero-content p {
+    font-size: 23px;
+}
+    .cta-button{
+        font-size: 14pt;
+        width: 250px;
+        height: 50px;
+    }
+    section h2{
+        font-size: 37px;
+    }
+    section p{
+        font-size: 25px;
+    }
+    section {
+    padding: 23px;
+    margin-bottom: 70px;
+}
+.hero-content img{
+    width: 65%;
+    padding: 15px;
+    margin-top: -75px;
+    cursor: pointer;
+}
+input{
+    font-size: 1 0pt;
+}
+}
+
+
+    /* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+header {
+    background-color: #222;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Anonymous Pro', monospace;
+    
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.logo:hover{
+    color: #b3b3b3;
+    letter-spacing: 0.8px;
+}
+nav ul {
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 3px;
+    margin-left: 8px;
+}
+nav ul li a:hover{
+    color: #b3b3b3;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-content h1 {
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 30px;
+}
+
+.hero-content img{
+
+}
+#services span {
+    font-weight: bold;
+    text-align: left;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #006494;
+    color: #fff;
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;    
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    border-radius: 30px;
+    background-color: #003350;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fff;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+#message{
+    height: 100px;
+}
+
+input,
+textarea {
+    font-family: 'Anonymous Pro', monospace;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #3f3f3f;
+    font-weight: bold;
+}
+
+button {
+    background-color: #006494;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003350;
+}
+
+#about span{
+    font-weight: bold;
+}
+#submit{
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 30px;
+    width: 200px;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            
+            <div class="logo">Z-Hub</div>
+            <ul>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <section id="hero">
+            <div class="hero-content">
+                <img src="bannerzhub.png">
+                 <h1>Descomplicando burocracias da sua empresa.</h1>
+                <p>Soluções digitais personalizadas para facilitar sua vida empresarial.</p>
+                <a href="https://wa.me/5519997927564?text=Ol%C3%A1,%20vim%20do%20site%20da%20Z-Hub!" class="cta-button">Fale conosco</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Nossos Serviços</h2>
+            <p>Somos especializados em fornecer soluções tecnológicas para simplificar e impulsionar seu negócio.<br><br><span>• Sites profissionais<br>• Softwares de gestão personalizados<br>• Criação de aplicativos mobile</span>
+            
+            <br><br>Além disso, oferecemos uma gama de outros serviços, como consultoria em tecnologia, integração de sistemas e suporte técnico. Estamos comprometidos em ajudar empresas de todos os tamanhos a alcançar o sucesso por meio de soluções inovadoras e eficazes.</p>
+            <!-- Adicione aqui os cards dos serviços -->
+        </section>
+
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            
+            <p>
+<span>Estamos aqui para ajudar os empreendedores a trilharem o caminho do sucesso por meio de soluções tecnológicas, inovadoras e personalizadas.</span>
+<br><br>
+Aqui na Z-Hub, estamos empenhados em oferecer serviços que facilitem a vida dos empreendedores e impulsionem seus negócios.
+<br><br>
+Ao contrário de empresas que oferecem soluções prontas e genéricas, buscamos entender a fundo a empresa de cada cliente e desenvolver soluções totalmente personalizadas, garantindo que eles tenham uma ferramenta tecnológica que realmente atenda às suas necessidades específicas. Sabemos que nossos clientes não são apenas números, são humanos, assim como nós!
+<br>
+</p>
+            <!-- Adicione aqui mais informações sobre a empresa -->
+        </section>
+
+        <section id="contact">
+            <h2>Entre em Contato</h2>
+            <p>Estamos prontos para ajudar você a descomplicar seu negócio. Preencha o formulário abaixo e entraremos em contato em breve!</p>
+            <!-- Adicione aqui o formulário de contato -->
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label class="txt" for="name">Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome...">
+        </div>
+        <div class="form-group">
+            <label class="txt" for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail...">
+        </div>
+        <div class="form-group">
+            <label class="txt" for="message">Mensagem:</label>
+            <textarea id="message" name="message" required placeholder="Escreva aqui sua mensagem..."></textarea>
+        </div>
+        <button id="submit" type="submit">Enviar</button>
+    </form>
+
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Z-Hub Solutions. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/46b82debe4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
